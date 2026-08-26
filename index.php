@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PHP Output 1</title>
+    <link rel="stylesheet" href="style.css">
     <style>
         body {
             font-family: "Arial";
@@ -36,6 +37,29 @@
                 </td>
             </tr>
             <tr>
+                <td>Age</td>
+                <td>
+                    <input type="text" name="age" placeholder="Enter Age" required />
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>
+                    <input type="text" name="email" placeholder="Enter Email" required />
+                </td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>
+                    <input type="text" name="address" placeholder="Enter address" required />
+                </td>
+            </tr>
+            <tr>
+                <td>Contact Number</td>
+                <td>
+                    <input type="text" name="contactnum" placeholder="Enter contact number" required />
+                </td>
+            </tr>
                 <td></td>
                 <td>
                     <input type="submit" value="Submit Data">
